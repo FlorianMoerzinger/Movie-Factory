@@ -1,0 +1,53 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  background-color: #1D2329; }
+
+#headerone {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vw; }
+
+.movieFactory h1 {
+  font-size: 4vw; }
+
+.back {
+  background-color: #1D2329; }
+
+.main-container {
+  margin-top: 12vw; }
+
+.artistImg {
+  width: 100%; }
+
+.likecounter {
+  background-color: green;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem; }
+
+.button {
+  background-color: green; }
+
+#footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vw; }
+
+@media screen and (max-width: 768px) {
+  #headerone {
+    height: 11vw; }
+
+  .movieFactory h1 {
+    font-size: 9vw; }
+
+  .border {
+    background-color: red; } }
+
+/*# sourceMappingURL=main.css.map */
